@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
-// PROBLEM #1 Avent of Code 2023
+// PROBLEM #1 Advent of Code 2023
 
 const char* numbers[] = { 
     "zero",
@@ -20,8 +20,6 @@ int main(void) {
     char c, lastchar = 0;
     int conditions[10] = { 0,0,0,0,0,0,0,0,0,0}, i;
     int ac = 0, b = -1, e;
-    char buffer[6];
-    memset(buffer, 0, sizeof(buffer));
 
     while((c = getchar()) != EOF){
         if(c == '\n'){
